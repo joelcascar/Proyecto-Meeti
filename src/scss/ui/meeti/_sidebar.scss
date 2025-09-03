@@ -1,0 +1,23 @@
+@use "base/variables" as v;
+
+
+.sidebar{
+
+    &__contenido{
+        background-color: v.$secundario;
+        padding: 2rem;
+        text-align: center;
+        color: v.$blanco;
+    }
+
+    &__heading,
+    &__texto{
+        color: v.$blanco;
+    }
+
+    &__span{
+        font-weight: 700;
+        text-transform: capitalize;
+    }
+
+}
